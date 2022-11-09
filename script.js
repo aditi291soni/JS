@@ -1,3 +1,3 @@
-var a=prompt("enter a no");
-var b=prompt("enter second no");
-console.log("sum of two no",Number(a)+Number(b));
+var a=prompt("enter user's name");
+var b=prompt("enter age");
+console.log("Hello ",a,", You are "+Number(b),"year old");
