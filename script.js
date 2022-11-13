@@ -1,6 +1,6 @@
-var a=Number(prompt("enter length"));
-var b=Number(prompt("enter breadth"));
-var area=a*b;
-var peri=2*(a+b);
-console.log("area  is ",area);
-console.log("perimeter is ",peri);
+var a=Number(prompt("enter mark of maths"));
+var b=Number(prompt("enter mark of computer"));
+var c = Number(prompt("enter mark of english"));
+var total=a+b+c;
+var per=(total/300)*100; 
+console.log(per,"%");
