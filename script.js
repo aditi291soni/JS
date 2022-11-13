@@ -1,5 +1,13 @@
-var a=Number(prompt("enter mark 1"));
-var b=Number(prompt("enter mark 2"));
-// var c = Number(prompt("enter mark 3"));
-var d= Math.max(a,b);
-console.log(d);
+var a=prompt("enter your gender")
+var b=a.toLowerCase();
+
+console.log(b);
+if(b=='m' ||  b=="male" ){
+    console.log("male")
+}
+else if(b=='f ' || b=='female'){
+console.log("female")
+}
+else{
+    console.log("wrong input")
+}
