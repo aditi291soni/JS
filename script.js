@@ -1,6 +1,9 @@
-var a=Number(prompt("enter mark of maths"));
-var b=Number(prompt("enter mark of computer"));
-var c = Number(prompt("enter mark of english"));
-var total=a+b+c;
-var per=(total/300)*100; 
-console.log(per,"%");
+var a=Number(prompt("enter mark 1"));
+var b=Number(prompt("enter mark 2"));
+var c = Number(prompt("enter mark 3"));
+if(a==b && b==c){
+console.log("all are eqaul")
+}
+else if(a==b || b==c){
+console.log("any two is equal")
+}
