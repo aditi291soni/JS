@@ -1,13 +1,7 @@
-var a=prompt("enter your gender")
-var b=a.toLowerCase();
-
-console.log(b);
-if(b=='m' ||  b=="male" ){
-    console.log("male")
-}
-else if(b=='f ' || b=='female'){
-console.log("female")
+var a=prompt("enter a no")
+if(a%2==0){
+    console.log("even no");
 }
 else{
-    console.log("wrong input")
+    console.log("odd no")
 }
