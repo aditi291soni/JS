@@ -1,12 +1,12 @@
-var a=Number(prompt("Enter first no"))
-var b=Number(prompt("Enter second  noo"))
-var c = Number(prompt("Enter third no"));
-if(a>b && a>c){
-    console.log(a," is greater among three")
+var a=Number(prompt("Enter a year"))
+if(a%100==0){
+if(a%4==0){
+    console.log("Leap year")
 }
-else if(b>a && b>c){
-    console.log(b, " is  greater among three")
+}
+else if(a%4==0){
+    console.log("leap year");
 }
 else{
-    console.log(c," is greater than three")
+    console.log("not a leap year")
 }
