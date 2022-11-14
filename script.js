@@ -1,21 +1,12 @@
-var a=Number(prompt("Enter Day no"))
-// var b=Number(prompt("enter a rate"))
-// var c = Number(prompt("enter a time"));
-if (a == 1) {
-  console.log("monday");
-} else if (a == 2) {
-  console.log("tuesday");
-} else if (a == 3) {
-  console.log("wednesday");
-} else if (a == 4) {
-  console.log("thursday");
-} else if (a == 5) {
-  console.log("friday");
-} else if (a == 6) {
-  console.log("saturday");
-} else if (a == 7) {
-  console.log("sunday");
+var a=Number(prompt("Enter first no"))
+var b=Number(prompt("Enter second  noo"))
+var c = Number(prompt("Enter third no"));
+if(a>b && a>c){
+    console.log(a," is greater among three")
+}
+else if(b>a && b>c){
+    console.log(b, " is  greater among three")
 }
 else{
-    console.log("enter wrong day");
+    console.log(c," is greater than three")
 }
