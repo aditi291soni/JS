@@ -1,12 +1,16 @@
-var a=Number(prompt("Enter a year"))
-if(a%100==0){
-if(a%400==0){
-    console.log("Leap year")
+var a=Number(prompt("enter the no"));
+if(a>=91 && a<=100){
+    console.log("AA")
 }
+else if(a>=81 && a<91){
+    console.log("AB")
 }
-else if(a%4==0){
-    console.log("leap year");
-}
-else{
-    console.log("not a leap year")
+else if (a >= 71 && a < 81) {
+  console.log("BB");
+} else if (a >= 61 && a < 71) {
+  console.log("BC");
+} else if (a >=51 && a < 61) {
+  console.log("CD");
+} else {
+  console.log("F");
 }
